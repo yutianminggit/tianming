@@ -1,0 +1,38 @@
+html,body{
+	display: block;
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+}
+.layui-tab-content{
+	padding:0;
+}
+.echartsbox{
+	width:100%;
+	height:450px;
+	background:#efefef;
+	position: relative;
+}
+.echartsbox1{
+	width:350px;
+	height:350px;
+	cursor: move;
+	position: absolute;
+}
+.showlist{
+	width:400px;
+	margin:20px auto 0px;
+
+}
+.showlist li{
+	height:40px;
+	width:100%;
+	line-height: 40px;
+	border-bottom:1px solid #efefef;
+	text-align: center;
+	cursor: pointer;
+}
+.showlist li a:hover{
+	color:#dd2727;
+}
